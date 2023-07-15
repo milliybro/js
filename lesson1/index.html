@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+   <p id="demo">Hello World</p>
+   <p id="none" style="display: none;">Hello Uzbekistan</p>
+   <!-- <button type="button" onclick="document.getElementById('demo').innerHTML = 'Hello Uzbekistan'">
+      Hello
+   </button> -->
+   <button type="button" onclick="document.getElementById('image').src='images/pic_bulbon.gif'">
+      ON
+   </button>
+   <img src="images/pic_bulboff.gif" id="image">
+   <button type="button" onclick="document.getElementById('image').src='images/pic_bulboff.gif'">
+      OFF
+   </button>
+   <button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">
+      Size up
+   </button>
+   <br>
+   <button type="button" onclick="document.getElementById('demo').style.display='none'">
+      Hello world remove
+   </button><br>
+   <button type="button" onclick="document.getElementById('none').style.display='block'">
+      Hello Uzbekistan added
+   </button>
+</body>
+</html>
